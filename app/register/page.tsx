@@ -10,6 +10,8 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { useAuth, type UserRole } from "@/lib/auth-context"
 
+
+// Registration Page Component
 export default function RegisterPage() {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
